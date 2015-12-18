@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easykitchen.waterweb.root.easykitchen" >
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1587840214790213"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddRecipeActivity"
+            android:label="@string/title_activity_add_recipe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easykitchen.waterweb.root.easykitchen.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".NewsFeedActivity"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name=".MyFavoritesActivity"
+            android:label="@string/title_activity_my_favorites" >
+        </activity>
+        <activity
+            android:name=".MyRecipesActivity"
+            android:label="@string/title_activity_my_recipes" >
+        </activity>
+        <activity
+            android:name=".MessagesActivity"
+            android:label="@string/title_activity_messages" >
+        </activity>
+    </application>
+
+</manifest>

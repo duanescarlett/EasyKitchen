@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/catList"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/listTextCat"
+        android:layout_toEndOf="@+id/listTextCat"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/listTextCat"
+            android:layout_marginLeft="72dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:text="Dummy Text"
+            android:shadowColor="#38ff6b"
+            android:singleLine="true"
+            android:textColorHint="#1f9cff" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

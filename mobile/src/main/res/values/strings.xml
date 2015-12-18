@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Kitchen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_main_activity_nav">MainActivityNav</string>
+
+    <string name="display_activity">Display Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="facebook_app_id">1587840214790213</string>
+
+    <string-array name="mainList">
+        <item>Profile</item>
+        <item>Categories</item>
+        <item>News Feed</item>
+        <item>My Favorites</item>
+        <item>My Recipes</item>
+        <item>Messages</item>
+    </string-array>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_add_recipe">Add Recipe</string>
+    <string name="title_activity_news_feed">News Feed</string>
+    <string name="title_activity_my_favorites">My Favorites</string>
+    <string name="title_activity_my_recipes">My Recipes</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="AddIngredients">Add Ingredient</string>
+    <string name="AddDirections">Add Direction</string>
+
+</resources>

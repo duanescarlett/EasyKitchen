@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.easykitchen.waterweb.root.easykitchen.Tools.CategoryDialog">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cat_navigate"
+        android:title="@string/next"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_next"
+        app:showAsAction="always"/>
+</menu>
